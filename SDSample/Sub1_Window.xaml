@@ -1,0 +1,27 @@
+﻿<Window x:Class="SDSample.Sub1_Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SDSample"
+        mc:Ignorable="d"
+        Title="Sub1_Window" Height="650" Width="800">
+    <Grid>
+        <Button x:Name="CloseButton" Content="CloseButton" HorizontalAlignment="Left" Margin="18,15,0,0" VerticalAlignment="Top" Width="97" Height="33" Click="CloseButton_Click"/>
+        <Button x:Name="Test1Button" Content="Test1Button" HorizontalAlignment="Left" Margin="129,15,0,0" VerticalAlignment="Top" Width="97" Height="33" Click="Test1Button_Click"/>
+        <TextBox x:Name="InfoTextBox" HorizontalAlignment="Center" Margin="0,57,0,533" TextWrapping="Wrap" Text="TextBox" Width="788" />
+
+
+        <StackPanel Margin="0,118,0,0" >
+            <Label Content="Event"/>
+            <TextBox x:Name="EventInfoBox" Height="200"  Margin="2" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" />
+
+            <Label Content="Scan Event"/>
+            <TextBox x:Name="EventInfoBox2" Height="100"  Margin="2" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" />
+
+            <Label Content="Connect Event"/>
+            <TextBox x:Name="EventInfoBox3" Height="100"  Margin="2" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" />
+        </StackPanel>
+
+    </Grid>
+</Window>
